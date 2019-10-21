@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:Navigation"
+             x:Class="Navigation.MainCarouselPage">
+    <ContentPage BackgroundColor="Yellow">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="I Am Page 1"></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Green">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="I Am Page 2"></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Fuchsia">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="I Am Page 3"></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>
