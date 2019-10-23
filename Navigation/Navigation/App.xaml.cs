@@ -10,8 +10,9 @@ namespace Navigation
         public App()
         {
             InitializeComponent();
-            MainPage = new Navigation.MainPage();
-        }
+            MainPage = new NavigationPage(new MainPage());
+        }       
+
         public Xamarin.Forms.ImageSource IconImageSource { get; set; }
 
         protected override void OnStart()

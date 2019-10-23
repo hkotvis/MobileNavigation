@@ -30,9 +30,9 @@ namespace Navigation
                 }
             };
         }
-        async void GoToCarousel(object sender, EventArgs e)
+        private void GoToCarousel(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainCarouselPage());
+             Navigation.PushAsync(new MainCarouselPage());
         }
     }
 
